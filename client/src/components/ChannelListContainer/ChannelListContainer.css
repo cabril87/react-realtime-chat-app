@@ -1,0 +1,161 @@
+.channel-list__sidebar {
+  width: 72px;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--primary-color); */
+  background: #101418;
+  box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.25);
+  /* border-top-left-radius: 16px; */
+  /* border-bottom-left-radius: 16px; */
+}
+.channel-list__sidebar__icon1,
+.channel-list__sidebar__icon2 {
+  width: 44px;
+  height: 44px;
+  margin: 14px;
+  background: #070a0d;
+  border-radius: 9999px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.33);
+}
+.icon1__inner {
+
+  font-family: Helvetica Neue, sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.icon2__inner {
+
+  font-family: Helvetica Neue, sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.channel-list__list__wrapper {
+  display: flex;
+  flex-direction: column;
+  background: #252626 !important;
+  width: 240px;
+  
+}
+.channel-list__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 32px;
+}
+
+.channel-list__header__text{
+  font-family: Helvetica Neue, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 70px;
+  /* line-height: 28px; */
+  color: #ffffff;
+}
+.channel-list__container {
+  display: flex;
+  /* height: 800px; */
+  /* height: 100%; */
+  /* width: 70%; */
+  box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.channel-list__container-toggle{
+  /* display: none; */
+  height: 50px;
+  width: 50px;
+  background: #64b5f6;
+  position: absolute;
+  right: -6%;
+  top: 45%;
+  border-radius: 50%;
+  z-index: 1102;
+}
+
+.channel-list__container-responsive{
+  display: none;
+  height: 100%;
+  box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+
+  width: 90%;
+  top: 0%;
+  z-index: 15;
+  transition: 0.8s ease;
+}
+
+.str-chat__input-flat {
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (max-width: 960px) {
+  .channel-list__container {
+    display: none;
+  }
+
+  .team-channerl-header_menu-icon {
+    display: flex;
+  }
+
+  .team-channel-header__container {
+    height: 70px;
+  }
+  
+  .team-channel-header__name-wrapper {
+    margin-top: 10px;
+    width: 150px;
+    height: 100%;
+    max-width: unset; 
+  }
+
+  .team-channel-header__name-multi {
+    display: flex;
+    margin-right: 8px;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .team-channel-header__name.user {
+    font-size: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .team-channel-header__right {
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .channel-list__container-responsive {
+    display: flex;
+  }
+
+  .channel-list__list__wrapper {
+    width: 100%;
+  }
+
+  .channerl-list__container-toggle {
+    display: flex;
+  
+  }
+
+  
+
+  
+
+  
+
+  .channel-search__results {
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    z-index: 1100;
+  } 
+}
+

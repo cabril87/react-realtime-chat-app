@@ -1,0 +1,81 @@
+.team-channel-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-channel-list__message {
+  color: #ffffff;
+  padding: 0 16px;
+}
+
+.team-channel-list__message.loading {
+  height: 115px;
+}
+
+.team-channel-list__header {
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-channel-list__header svg {
+  cursor: pointer;
+}
+
+.team-channel-list__header__title {
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  height: 16px;
+  color: rgba(255, 255, 255, 0.66);
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 960px) {
+  .channel-list__container {
+    display: none;
+  }
+
+  .team-channerl-header_menu-icon {
+    display: flex;
+  }
+
+
+
+  .team-channel-header__name-wrapper {
+    height: 100%;
+    max-width: unset;
+  }
+
+  .team-channel-header__name-multi {
+    margin-right: 8px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .team-channel-header__name.user {
+    font-size: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .team-channel-header__right {
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .channel-list__container-responsive {
+    display: flex;
+  }
+
+  .channel-list__list__wrapper {
+    width: 100%;
+  }
+
+  .channerl-list__container-toggle {
+    display: flex;
+  }
+
+ 
+}

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43261b20.chunk.css",
+    "main.js": "/static/js/main.a1506d52.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.5054c919.js",
+    "static/css/2.1b12d735.chunk.css": "/static/css/2.1b12d735.chunk.css",
+    "static/js/2.48deca79.chunk.js": "/static/js/2.48deca79.chunk.js",
+    "static/js/3.83abc6b0.chunk.js": "/static/js/3.83abc6b0.chunk.js",
+    "static/js/4.06790429.chunk.js": "/static/js/4.06790429.chunk.js",
+    "static/js/5.0a51de81.chunk.js": "/static/js/5.0a51de81.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.48deca79.chunk.js.LICENSE.txt": "/static/js/2.48deca79.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/NotoColorEmoji-flags.148141ac.woff2",
+    "static/media/home.d78a3ed5.png": "/static/media/home.d78a3ed5.png",
+    "static/media/info.2bbfc131.png": "/static/media/info.2bbfc131.png",
+    "static/media/logout.a78baedd.png": "/static/media/logout.a78baedd.png",
+    "static/media/search.b0d4ad67.png": "/static/media/search.b0d4ad67.png",
+    "static/media/str-chat__connection-error.90385cff.svg": "/static/media/str-chat__connection-error.90385cff.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5054c919.js",
+    "static/css/2.1b12d735.chunk.css",
+    "static/js/2.48deca79.chunk.js",
+    "static/css/main.43261b20.chunk.css",
+    "static/js/main.a1506d52.chunk.js"
+  ]
+}

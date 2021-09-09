@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 200px;
+  }
+  
+  .logo__text{
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 78px;
+    margin-top: 50px;
+    /* line-height: 28px; */
+    color: #ffffff;
+  }

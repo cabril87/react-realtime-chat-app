@@ -1,0 +1,21 @@
+
+
+
+
+
+
+.channel__container {
+  height: 100%;
+  width: 100%;
+
+}
+
+.str-chat {
+  background: #252626 !important;
+  
+}
+.str-chat, .channel-empty__container{
+  color: white;
+  
+}
+

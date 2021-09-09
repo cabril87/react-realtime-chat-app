@@ -1,0 +1,28 @@
+.app__wrapper {
+  display: flex;
+  flex: 1;
+  /* height: 800px; */
+  height: 100%;
+  /* border-radius: 16px; */
+  box-shadow: rgba(0, 0, 0, 0.33) 0px 1px 4px 0px;
+}
+.stream-chat-react{
+  color: aliceblue !important;
+}
+
+.str-chat-channel-list.messaging, .str-chat-channel-list.team, .str-chat-channel-list.commerce {
+  height: auto;
+}
+@media screen and (max-width: 960px){
+  .str-chat-channel-list.messaging, .str-chat-channel-list.team, .str-chat-channel-list.commerce {
+   
+    top:0;
+    
+    position: relative;
+    left:0;
+    min-height: 10%;
+    overflow-y: auto;
+  }
+}
+
+  
